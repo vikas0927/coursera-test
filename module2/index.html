@@ -3,111 +3,30 @@
 <head>
 <meta charset="utf-8">
 <metan name="viewport" content="width=device-width, intial-scale=1">
-<title>Simple Selectors</title>
-<style>
-  *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-  }
-.box{
-  background-color: #808080;
-  padding: 10px;
-  border: 2px solid black;
-  margin-top: 50px;
-  overflow:  ;
-}
-h2{
-  background-color : pink;
-  border: 2px solid black;
-  width: 30%;
-  float: right;
-  position: relative;
-  bottom:12px;
-  left:12px;
-
-}
-h1{
-  text-align: center;
-}
-.top{
-
-  clear: right;
-}
-#beef{
-  background-color: #B22222;
-  text-align: center;
-}
-#sushi{
-  background-color: #F0E68C;
-  text-align: center;
-}
-#chick{
-  text-align: center;
-}
-.row{
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .lg1,.lg2,.lg3{
-    float:left;
-  }
-  .lg1{
-    width: 33.3%;
-  }
-  .lg2{
-    width: 33.3%;
-  }
-  .lg-3{
-    width: 33.3%
-  }
-}
-@media(min-width: 768px) and (max-width: 991px){
-  .md1,.md2,.md3{
-    float: left;
-  }
-  .md1{
-    width: 50%;
-  }
-  .md2{
-    width: 50%;
-  }
-  .md3{
-    width: 100%;
-  }
-}
-@media(max-width: 767px){
-  .sm1,.sm2,.sm3{
-    float: left;
-  }
-  .sm1{
-    width: 100%;
-  }
-  .sm2{
-    width: 100%;
-  }
-  .sm3{
-    width: 100%;
-  }
-}
-</style>
+<title>assignment</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1> Our Menu</h1>
 <div class="row">
-<div class="box lg1 md1 sm1">
-<h2 id="chick">chicken</h2>
+<div class=" lg1 md1 sm1">
+<div class="box">
+<h2 id="chick" class="top">chicken</h2>
 <p class="top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
 </div>
-<div class="box lg2 md2 sm2">
-<h2 id="beef">beef</h2>
+</div>
+<div class=" lg2 md2 sm2">
+<div class="box">
+<h2 id="beef" class="top">beef</h2>
 <p class ="top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo ipsum dolores vel modi magnam veniam alias at nam. Voluptatem officiis dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!</p>
 </div>
-<div class="box lg3 md3 sm3">
-<h2 id="sushi">Sushi</h2>
+</div>
+<div class=" lg3 md3 sm3">
+<div class="box">
+<h2 id="sushi" class="top">Sushi</h2>
 <p class="top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo ipsum dolores vel modi magnam veniam alias at nam. Voluptatem officiis dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!</p>
 </div>
- </div>
+</div>
+</div>
 </body>
 </html>
